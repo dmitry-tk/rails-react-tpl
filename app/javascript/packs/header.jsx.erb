@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default class Header extends React.Component {
     render() {
@@ -6,7 +7,9 @@ export default class Header extends React.Component {
           <div className="header">
             <div className="header-inner fl-cont fl-center-h">
                     <div className="fl-wrap fl-grow padd-left-md red">
-                      <img src="<%= ActionController::Base.helpers.asset_path('logos/logo_example.png') %>"  className="header-icon"/>
+                      <Link to='/todo-app'>
+                        <img src="<%= ActionController::Base.helpers.asset_path('logos/logo_example.png') %>"  className="header-icon"/>
+                      </Link>
                     </div>
                     <div className="fl-wrap padd-ri-md hidden">
                 </div>

@@ -14,7 +14,10 @@
     "bootstrap": "4.0.0-beta",
     "popper.js": "1.12.4",
 
-    "material-design-colors": "1.0.2"
+    "material-design-colors": "1.0.2",
+
+    "react-router": "4.2.0",
+    "react-router-dom": "4.2.2"
   },
   "devDependencies": {
     "webpack-dev-server": "^2.9.3"
