@@ -1,4 +1,4 @@
-# Rails + React template app
+## Rails 5.1 skeleton project with React and a lot of stuff included.
 
 
 ### Short overview
