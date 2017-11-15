@@ -1,0 +1,43 @@
+
+# Ignore IDE files
+.idea/
+
+
+# Ignore bundler state
+/.bundle
+/vendor/bundle/
+
+
+# Ignore all logfiles and tempfiles.
+/log/*
+tmp/*
+!/log/.keep
+!/tmp/.keep
+
+
+# Ignore various artifacts
+**.war
+*.rbc
+*.sassc
+.rspec
+.redcar/
+.sass-cache
+/public/cache
+/public/stylesheets/compiled
+/public/system
+/cache
+
+
+# rails app secrets - uncomment for pubilc repos
+#config/secrets.yml
+
+
+# Ignore Byebug command history file.
+.byebug_history
+
+
+# Ignore all node_modules
+node_modules/
+
+# Ignore all compiled assets packs
+public/packs/

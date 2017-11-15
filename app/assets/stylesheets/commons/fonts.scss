@@ -1,0 +1,30 @@
+// ALL STUFF RELATED TO FONTS
+
+
+// font weights
+.thin{ font-weight: 100; }
+.extra-light{ font-weight: 200; }
+.light{ font-weight: 300; }
+.regular{ font-weight: 400; }
+.medium{ font-weight: 500; }
+.semibold{ font-weight: 600; }
+.bold{ font-weight: 700; }
+.extrabold{ font-weight: 800; }
+
+// text transform
+.uppercase{ text-transform: uppercase;  }
+.capitalize { text-transform: capitalize; }
+.uppercase {  text-transform: uppercase;  }
+
+// font display
+.inl{ display: inline; }
+.undec{ text-decoration: none !important; }
+
+
+
+// one-line, 3 dots ending, overflow hidden
+.one-liner {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
