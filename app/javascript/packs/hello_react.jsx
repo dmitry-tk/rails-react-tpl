@@ -14,7 +14,7 @@ class TodoApp extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className="padd-md">
                 <h3>TODO</h3>
                 <TodoList items={this.state.items} />
                 <form onSubmit={this.handleSubmit}>

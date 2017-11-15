@@ -1,10 +1,48 @@
-footer{
 
+html {
+  position: relative;
+  min-height: 100%;
 }
 
-header{
-
+body {
+  margin: 65px 0 40px 0; /* top = header height, bottom = footer height */
 }
+
+.header{
+  background-color: white;
+  opacity: 0.9;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 40;
+  height: 65px;
+}
+
+.header-inner{
+  height: 100%;
+  margin: 0 20px;
+  border-bottom: 1px #dadada solid;
+}
+
+.footer {
+  background-color: white;
+  opacity: 0.9;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 40px;
+  width: 100%;
+  overflow:hidden;
+}
+
+.footer-inner{
+  border-top: 1px #dadada solid;
+  margin: 0 20px;
+  height: 100%;
+}
+
+
 
 .content{
 
